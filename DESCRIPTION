@@ -1,0 +1,23 @@
+Package: fsrs
+Type: Package
+Title: Functions of Statistics and Related Subject
+Version: 0.1.0
+Author: Simon Han
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.3.2)
+Imports:
+  dplyr,
+  tidyr,
+  purrr,
+  scales,
+  ggplot2
+Suggests:
+  knitr,
+    rmarkdown
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
