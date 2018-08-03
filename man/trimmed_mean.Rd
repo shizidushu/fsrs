@@ -23,7 +23,7 @@ trimmed_mean(x, trim = 0.2, na.rm = FALSE)
 \description{
 The sample median is an example of what is called atrimmed mean; it trims all but one or two values. The sample mean represents the other extreme: zero trimming.
 
- No specific amount of trimming is always best, but for various reasons, 20% trimming is often a good choice. This means that the smallest 20% and the largest 20% are trimmed and the average of the remaining data is computed.
+ No specific amount of trimming is always best, but for various reasons, 20\% trimming is often a good choice. This means that the smallest 20\% and the largest 20\% are trimmed and the average of the remaining data is computed.
 
  In symbols, first compute 0.2n, round down to the nearest integer, call this result g, in which case the 20\% trimmed mean is given by
 

@@ -15,9 +15,10 @@ Imports:
   tidyr,
   purrr,
   scales,
-  ggplot2
+  ggplot2,
+  magrittr
 Suggests:
   knitr,
-    rmarkdown
+  rmarkdown
 RoxygenNote: 6.0.1
 VignetteBuilder: knitr

@@ -7,7 +7,7 @@
 to_radian(theta)
 }
 \arguments{
-\item{angle}{in degrees}
+\item{theta}{angle in degrees}
 }
 \description{
 Convert degree to radian

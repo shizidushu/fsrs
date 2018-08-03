@@ -25,3 +25,7 @@ The sample median divides the data into two parts: the lower half and the upper 
  
   Roughly, the \emph{lower quartile} is the median of the smaller half of the data and the \emph{upper quartile} is the median of the upper half.
 }
+\examples{
+x <- c(-29.6, - 20.9, - 19.7, - 15.4, - 12.3, - 8.0, - 4.3, 0.8, 2.0, 6.2, 11.2, 25.0)
+idealf(x)
+}

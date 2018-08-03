@@ -21,3 +21,7 @@ MAD is computed by subtracting the median from each observation, taking the abso
 Typically, \href{https://en.wikipedia.org/wiki/Median_absolute_deviation}{MAD} is divided by 0.6745. 
 MADN = MAD / 0.6745
 }
+\examples{
+x <- c(12,45,23,79,19,92,30,58,132)
+mad(x)
+}

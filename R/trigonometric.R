@@ -27,7 +27,7 @@ to_degree <- function(theta) {
 
 #' Convert degree to radian
 #' 
-#' @param angle in degrees
+#' @param theta angle in degrees
 #' @details 1 degree = pi / 180 (about 0.017) radians
 #' @export
 to_radian <- function(theta) {
